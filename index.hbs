@@ -1,0 +1,14 @@
+<div class="container">
+<h1>{{title}}</h1>
+<p>
+  {{#if fiboval}}
+  <p>Fibonacci for {{fibonum}} is {{fiboval}}</p>
+  {{/if}}
+</p>
+<hr/>
+<form name="fibonacci" action="/" method="get">
+<label for="title">Enter a number to calculate its fibonacci</label>
+  <input type="text" name="fibonum" id="fibonum">
+  <button type="submit">Calculate</button>
+</form>
+</div>
